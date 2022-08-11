@@ -13,7 +13,7 @@ columns: "3" # You can change this to any number that is a factor of 12: (1, 2, 
 theme: default
 colors:
   light:
-    highlight-primary: "#fff5f2"
+    highlight-primary: "#0000001a"
     highlight-secondary: "#fff5f2"
     highlight-hover: "#bebebe"
     background: "#12152B"
@@ -27,13 +27,13 @@ colors:
     link-hover: "#2e4053"
     background-image: "../assets/wallpaper-light.jpeg" # Change wallpaper.jpeg to the name of your own custom wallpaper!
   dark:
-    highlight-primary: "#181C3A"
+    highlight-primary: "#21183A45"
     highlight-secondary: "#181C3A"
     highlight-hover: "#1F2347"
     background: "#12152B"
     card-background: "rgba(24, 28, 58, 0.8)"
     text: "#eaeaea"
-    text-header: "#7C71DD"
+    text-header: "#d9d9d9"
     text-title: "#fafafa"
     text-subtitle: "#8B8D9C"
     card-shadow: rgba(0, 0, 0, 0.5)
@@ -43,7 +43,7 @@ colors:
 
 services:
   - name: "//GitHub"
-    icon: "fas fa-github"
+    icon: "" #Can add icons from https://fontawesome.com/icons
     items:
       - name: "Homer Theme"
         logo: "assets/tools/walkx.png" # Change github.png to the name of your own custom icon!
@@ -54,12 +54,12 @@ services:
         target: "_blank"
 
   - name: "//Reddit"
-    icon: "fas fa-reddit"
+    icon: "" #Can add icons from https://fontawesome.com/icons
     items:
       - name: "The original reddit post!"
         logo: "assets/tools/reddit.png"
         subtitle: "Yes... this is Homer."
         tag: "reddit"
         tagstyle: "is-info"
-        url: "https://www.reddit.com/r/selfhosted/comments/q9e82c/yes_this_is_homer_yes_i_spent_2_hours_customizing/"
+        url: "https://www.reddit.com/r/selfhosted/comments/wl2br4/7_months_of_selfhosting_with_my_raspberrypi_more/"
         target: "_blank"
