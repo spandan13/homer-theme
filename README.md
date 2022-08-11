@@ -4,7 +4,7 @@
    <img alt="Homer Theme" src="https://raw.githubusercontent.com/spandan13/Homer-Theme/main/preview.png">
  </details>
  <details>
-  <summary>Light mode preview!</summary>
+  <summary>Light mode preview! (To be fixed)</summary>
    <img alt="Homer Theme" src="https://raw.githubusercontent.com/spandan13/Homer-Theme/main/preview-light.png">
  </details>
  <p align="center">
