@@ -1,14 +1,14 @@
 <p align="center">
  <details open>
   <summary>Dark mode preview!</summary>
-   <img alt="Homer Theme" src="https://raw.githubusercontent.com/WalkxCode/Homer-Theme/main/preview.png">
+   <img alt="Homer Theme" src="https://raw.githubusercontent.com/spandan13/Homer-Theme/main/preview.png">
  </details>
  <details>
   <summary>Light mode preview!</summary>
-   <img alt="Homer Theme" src="https://raw.githubusercontent.com/WalkxCode/Homer-Theme/main/preview-light.png">
+   <img alt="Homer Theme" src="https://raw.githubusercontent.com/spandan13/Homer-Theme/main/preview-light.png">
  </details>
  <p align="center">
-  This is v2 of Homer Theme, v1 is available <a href="https://github.com/WalkxCode/Homer-Theme/tree/v1">here.</a>
+  This is v2 of Homer Theme, v1 is available <a href="https://github.com/spandan13/Homer-Theme/tree/v1">here.</a>
 </p>
 
 </p>
@@ -60,10 +60,10 @@ Homer Theme is a theme for the [Homer Dashboard.](https://github.com/bastienwirt
 
 ### Getting the assets folder
 
-Clone [this repo](https://github.com/WalkxCode/Homer-Theme). You can do this by running:
+Clone [this repo](https://github.com/spandan13/Homer-Theme). You can do this by running:
 
 ```sh
-$ git clone https://github.com/WalkxCode/Homer-Theme.git
+$ git clone https://github.com/spandan13/Homer-Theme.git
 ```
 
 Now cd into the newly created folder.
