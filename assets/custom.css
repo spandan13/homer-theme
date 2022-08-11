@@ -93,7 +93,15 @@ body .layout-vertical .column div:last-of-type .card {
 
 /* Changes Header Opacity */
 body #bighead .navbar {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(33, 24, 58, 0.25);
+}
+
+/* Heading */
+body #bighead .first-line .container {
+  min-height: 80px;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
 }
 
 body .search-bar input {
@@ -103,4 +111,28 @@ body .search-bar input {
 body #bighead .navbar a:focus, body #bighead .navbar a:hover {
    background-color: rgba(0, 0, 0, 0);
    color: var(--link-hover);
+}
+
+/* Subtitle size */
+body #bighead .first-line .headline {
+  margin-top: 5px;
+  font-size: 1.2rem;
+}
+
+/* Title */
+body #bighead .first-line h1 {
+  margin-top: -12px;
+  font-size: 2.5rem;
+}
+/* Logo */
+body #bighead .first-line .logo i {
+  vertical-align: top;
+  padding: 8px 15px;
+  font-size: 65px;
+}
+
+/* App Cards */
+body #app .card {
+  background-color: rgba(51, 10, 129, 0.61);
+  box-shadow: 0 2px 15px 0 var(--card-shadow);
 }
