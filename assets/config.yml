@@ -1,13 +1,16 @@
 ---
-title: "Homer Theme"
-subtitle: "Walkx"
-logo: "logo.png"
+title: "My Server"
+subtitle: "Welcome To"
+#logo: "logo.png"
+icon: "fas fa-server"
 
-header: false
-footer: '<p>Theme made with <span class="has-text-danger">❤️</span> by <a href="https://github.com/WalkxCode">Walkx</a></p>' # Set false if you want to hide it.
+header: true
+footer: 'My Awesome Home Server' # Set false if you want to hide it.
 
 stylesheet:
   - "assets/custom.css"
+
+search: true
 
 columns: "3" # You can change this to any number that is a factor of 12: (1, 2, 3, 4, 6, 12)
 theme: default
@@ -17,6 +20,7 @@ colors:
     highlight-secondary: "#fff5f2"
     highlight-hover: "#bebebe"
     background: "#12152B"
+    background-color: "#6d0a814d"
     card-background: "rgba(255, 245, 242, 0.8)"
     text: "#ffffff"
     text-header: "#fafafa"
@@ -41,25 +45,36 @@ colors:
     link-hover: "#fafafa"
     background-image: "../assets/wallpaper.jpeg"
 
-services:
-  - name: "//GitHub"
-    icon: "" #Can add icons from https://fontawesome.com/icons
-    items:
-      - name: "Homer Theme"
-        logo: "assets/tools/walkx.png" # Change github.png to the name of your own custom icon!
-        subtitle: "The official Homer Theme github!"
-        tag: "github"
-        tagstyle: "is-primary" # This will display the is-primary color! Try changing it to; is-link, is-info, is-success, is-warning or is-danger!
-        url: "https://github.com/WalkxCode/Homer-Theme"
-        target: "_blank"
+# Optional navbar
+# links: [] # Allows for navbar (dark mode, layout, and search) without any links
+links:
+  - name: "GitHub"
+    icon: "fab fa-github"
+    url: "https://github.com/"
+    target: "_blank" # optional html a tag target attribute
+  - name: "Docker Hub"
+    icon: "fab fa-docker"
+    url: "https://hub.docker.com/"
+    target: "_blank"
 
-  - name: "//Reddit"
-    icon: "" #Can add icons from https://fontawesome.com/icons
+# Services
+# First level array represent a group.
+# Leave only a "items" key if not using group (group name, icon & tagstyle are optional, section separation will not be displayed).
+
+services:
+  - name: "Category 1"
+    icon: "fas fa-cogs"
     items:
-      - name: "The original reddit post!"
+      - name: "GitHub"
+        logo: "assets/tools/github.png"
+        subtitle: "The Open Source Community"
+        url: "https://github.com"
+        target: "_blank" # optional html a tag target attribute
+  - name: "Category 2"
+    icon: "fas fa-network-wired"
+    items:
+      - name: "Reddit"
         logo: "assets/tools/reddit.png"
-        subtitle: "Yes... this is Homer."
-        tag: "reddit"
-        tagstyle: "is-info"
-        url: "https://www.reddit.com/r/selfhosted/comments/wl2br4/7_months_of_selfhosting_with_my_raspberrypi_more/"
+        subtitle: "Dive into your interests and passions"
+        url: "https://reddit.com"
         target: "_blank"
