@@ -115,6 +115,7 @@ body #bighead .first-line h1 {
   margin-top: -12px;
   font-size: 2.5rem;
 }
+
 /* Logo */
 body #bighead .first-line .logo i {
   vertical-align: top;
@@ -124,6 +125,14 @@ body #bighead .first-line .logo i {
 
 /* App Cards */
 body #app .card {
-  background-color: rgba(51, 10, 129, 0.61);
+  background-color: var(--card-cover); 
   box-shadow: 0 2px 15px 0 var(--card-shadow);
+}
+
+body #app.is-dark{
+  --card-cover: rgba(49, 19, 69, 0.71);
+}
+
+body #app.is-light{
+  --card-cover: rgba(255, 255, 255, 0.3);
 }
