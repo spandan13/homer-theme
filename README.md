@@ -4,8 +4,8 @@
    <img alt="Homer Theme" src="https://raw.githubusercontent.com/spandan13/homer-theme/main/preview.png">
  </details>
  <details>
-  <summary>Light mode preview! (To be updated)</summary>
-   <img alt="Homer Theme" src="https://raw.githubusercontent.com/spandan13/Homer-Theme/main/preview-light.png">
+  <summary>Light mode preview!</summary>
+   <img alt="Homer Theme" src="https://raw.githubusercontent.com/spandan13/homer-theme/main/preview-light.png">
  </details>
  <p align="center">
   This is v2 of Homer Theme, v1 is available <a href="https://github.com/spandan13/Homer-Theme/tree/v1">here.</a>
